@@ -1,0 +1,35 @@
+.timing {
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 0px 2px 0px 2px;
+    font-size: 0.8em;
+}
+
+.thumbnail-img {
+    width: 100%;
+}
+
+.thumbnail {
+    width: calc((100% / 8) - 5px);
+    display: inline;
+    vertical-align: bottom;
+    position: relative;
+    margin-right: 5px;
+    cursor: pointer;
+    outline: 1px solid black;
+    transition: outline 0.3s ease-in;
+}
+
+.thumbnail:hover {
+    outline-width: 5px;
+}
+
+.thumbnail-selector {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}

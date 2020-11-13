@@ -1,0 +1,28 @@
+.subtitle-scrubber {
+    padding-left: 0px;
+    max-height: 360px;
+    overflow-x: hidden;
+    color: gray;
+}
+
+.subtitle {
+    display: inline;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.subtitle:hover {
+    background-color: powderblue;
+}
+
+.subtitle-current {
+    background-color: powderblue;
+    border-color: deepskyblue;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    color: black;
+}
